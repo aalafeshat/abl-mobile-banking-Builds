@@ -151,8 +151,5 @@
         "nativeOTA": {
             "enabled": false
         }
-    },
-    "appVersion": "0.0.366",
-    "buildNumber": 366,
-    "runtimeUrl": "https://mbamendixproxy-uat.albarakaonline.co.za"
+    }
 }
