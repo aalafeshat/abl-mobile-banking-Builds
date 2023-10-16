@@ -88,16 +88,6 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
     }
 
     private void handleLaunchWithData(Intent intent) {
-        try {
-            // These lines introduce a way to bypass the initial screen containing the app url.
-            // In order to use it you need to launch detox with an extra launchArgs
-            // detox.launchApp({ launchArgs: { appUrl: "http://localhost:8080" }});
-            Bundle bundleExtra = intent.getBundleExtra("launchArgs");
-            String appUrl = bundleExtra.getString("appUrl");
-            launchApp(appUrl, intent);
-            return;
-        } catch (Exception e) {}
-
         if (intent.getData() != null) {
             launchApp(appPreferences.getAppUrl(), intent);
         }
@@ -123,9 +113,10 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
     @Override
     public void handleResult(Result rawResult) {
         try {
-            String url = rawResult.getText();
+            JSONObject json = new JSONObject(rawResult.getText());
+            String url = json.getString("url");
             launchApp(url, null);
-        } catch (Exception e) {
+        } catch (JSONException e) {
             Toast.makeText(MainActivity.this, R.string.qr_code_invalid, Toast.LENGTH_LONG).show();
         }
     }

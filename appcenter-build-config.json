@@ -10,7 +10,7 @@
     ],
     "toolsets": {
       "xcode": {
-        "xcodeVersion": "14.2",
+        "xcodeVersion": "13.2.1",
         "automaticSigning": false,
         "projectOrWorkspacePath": "ios/NativeTemplate.xcworkspace",
         "podfilePath": "ios/Podfile",
@@ -19,7 +19,7 @@
       "javascript": {
         "packageJsonPath": "package.json",
         "runTests": false,
-        "nodeVersion": "16.x"
+        "nodeVersion": "14.x"
       },
       "buildscripts": {
         "package.json": {
@@ -36,8 +36,7 @@
     "environmentVariables": [
       { "name": "CODE_PUSH_KEY", "value": "" },
       { "name": "IS_DEV_APP", "value": false },
-      { "name": "SUPPORTS_MOBILE_TOOLKIT", "value": false },
-      { "name": "JAVA_HOME", "value": "$(JAVA_HOME_11_X64)" }
+      { "name": "SUPPORTS_MOBILE_TOOLKIT", "value": false }
     ],
     "toolsets": {
       "android": {
@@ -52,7 +51,7 @@
       "javascript": {
         "packageJsonPath": "package.json",
         "runTests": false,
-        "nodeVersion": "16.x"
+        "nodeVersion": "14.x"
       },
       "buildscripts": {
         "package.json": {
