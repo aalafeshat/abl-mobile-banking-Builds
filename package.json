@@ -31,6 +31,7 @@
     "react-native-push-notification": "8.1.1",
     "react-native-reanimated": "1.13.1",
     "react-native-safe-area-context": "3.1.8",
+    "react-native-sensitive-info": "^5.5.8",
     "react-native-splash-screen": "3.2.0",
     "react-native-svg": "12.1.0",
     "react-native-touch-id": "4.4.1",
