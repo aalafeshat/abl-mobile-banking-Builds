@@ -1,7 +1,7 @@
 {
     "configVersion": 2,
-    "appIdentifier": "com.ablmobilebankingsolution.sa.mobile.acceptanceapp",
-    "appName": "Al Baraka SA Banking Test App",
+    "appIdentifier": "com.ablmobilebankingsolution.sa.mobile",
+    "appName": "Al Baraka SA Banking App",
     "bundleName": {
         "main": "ABLMobileBankin",
         "dev": "ABLMobileBanDev"
@@ -56,14 +56,14 @@
             "required": true
         },
         {
-            "title": "Read External Storage",
-            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "title": "Write External Storage",
+            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
             "platform": "android",
             "required": false
         },
         {
-            "title": "Write External Storage",
-            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
             "platform": "android",
             "required": false
         },
@@ -89,6 +89,13 @@
             "required": false
         },
         {
+            "title": "Face ID Usage",
+            "name": "NSFaceIDUsageDescription",
+            "purpose": "Enabling Face ID allows you quick and secure access to your account.",
+            "platform": "ios",
+            "required": false
+        },
+        {
             "title": "Photo Library Usage",
             "name": "NSPhotoLibraryUsageDescription",
             "purpose": "To use that feature, the app needs access to your photo library.",
@@ -99,13 +106,6 @@
             "title": "Photo Library Add Usage",
             "name": "NSPhotoLibraryAddUsageDescription",
             "purpose": "To use that feature, the app needs access to your photo library.",
-            "platform": "ios",
-            "required": false
-        },
-        {
-            "title": "Face ID Usage",
-            "name": "NSFaceIDUsageDescription",
-            "purpose": "Enabling Face ID allows you quick and secure access to your account.",
             "platform": "ios",
             "required": false
         }
@@ -152,7 +152,7 @@
             "enabled": false
         }
     },
-    "appVersion": "0.0.372",
-    "buildNumber": 372,
-    "runtimeUrl": "https://mbamendixproxy-uat.albarakaonline.co.za"
+    "appVersion": "0.0.373",
+    "buildNumber": 373,
+    "runtimeUrl": "https://mybanking.albaraka.co.za"
 }
