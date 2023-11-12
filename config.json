@@ -1,7 +1,7 @@
 {
     "configVersion": 2,
     "appIdentifier": "com.ablmobilebankingsolution.sa.mobile.acceptanceapp",
-    "appName": "Al Baraka SA Banking Test App",
+    "appName": "ABL Mobile Banking Solution",
     "bundleName": {
         "main": "ABLMobileBankin",
         "dev": "ABLMobileBanDev"
@@ -154,5 +154,5 @@
     },
     "appVersion": "0.0.382",
     "buildNumber": 382,
-    "runtimeUrl": "https://mbamendixproxy-uat.albarakaonline.co.za"
+    "runtimeUrl": "https://mybanking2.albaraka.co.za/"
 }
