@@ -1,7 +1,7 @@
 {
     "configVersion": 2,
     "appIdentifier": "com.ablmobilebankingsolution.sa.mobile.acceptanceapp",
-    "appName": "ABL Mobile Banking Solution",
+    "appName": "Al Baraka SA Banking Test App",
     "bundleName": {
         "main": "ABLMobileBankin",
         "dev": "ABLMobileBanDev"
@@ -56,14 +56,14 @@
             "required": true
         },
         {
-            "title": "Read External Storage",
-            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "title": "Write External Storage",
+            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
             "platform": "android",
             "required": false
         },
         {
-            "title": "Write External Storage",
-            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
             "platform": "android",
             "required": false
         },
