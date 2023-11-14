@@ -108,12 +108,6 @@
             "purpose": "Enabling Face ID allows you quick and secure access to your account.",
             "platform": "ios",
             "required": false
-        },
-        {
-            "title": "Camera",
-            "name": "android.permission.CAMERA",
-            "platform": "android",
-            "required": false
         }
     ],
     "capabilities": {
@@ -157,8 +151,5 @@
         "nativeOTA": {
             "enabled": false
         }
-    },
-    "appVersion": "0.0.384",
-    "buildNumber": 384,
-    "runtimeUrl": "https://mybanking2.albaraka.co.za/"
+    }
 }
