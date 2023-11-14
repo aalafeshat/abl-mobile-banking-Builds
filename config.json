@@ -151,5 +151,8 @@
         "nativeOTA": {
             "enabled": false
         }
-    }
+    },
+    "appVersion": "0.0.385",
+    "buildNumber": 385,
+    "runtimeUrl": "https://mybanking2.albaraka.co.za/"
 }
