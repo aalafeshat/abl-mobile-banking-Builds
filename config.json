@@ -56,14 +56,14 @@
             "required": true
         },
         {
-            "title": "Write External Storage",
-            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
             "platform": "android",
             "required": false
         },
         {
-            "title": "Read External Storage",
-            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "title": "Write External Storage",
+            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
             "platform": "android",
             "required": false
         },
@@ -157,5 +157,8 @@
         "nativeOTA": {
             "enabled": false
         }
-    }
+    },
+    "appVersion": "0.0.388",
+    "buildNumber": 388,
+    "runtimeUrl": "https://mybanking2.albaraka.co.za"
 }
