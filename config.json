@@ -1,6 +1,6 @@
 {
     "configVersion": 2,
-    "appIdentifier": "com.ablmobilebankingsolution.sa.mobile.acceptanceapp",
+    "appIdentifier": "com.ablmobilebankingsolution.sa.mobile",
     "appName": "Al Baraka SA Banking Test App",
     "bundleName": {
         "main": "ABLMobileBankin",
@@ -158,7 +158,7 @@
             "enabled": false
         }
     },
-    "appVersion": "0.0.395",
-    "buildNumber": 395,
+    "appVersion": "0.0.396",
+    "buildNumber": 396,
     "runtimeUrl": "https://mybanking2.albaraka.co.za"
 }
